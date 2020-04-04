@@ -3,6 +3,9 @@
 {% block content %}
     <div>Сайт для заметок</div>
     <h2>Все заметки</h2>
+    <form action="http://localhost:5000/add" method="POST">
+        <input type="date" name="dt">
+    </form>
     <ol>
         {% for notes in notes_list %}
             <li>{{ notes }}</li>
@@ -10,3 +13,4 @@
     </ol>
 
 {% endblock %}
+ 
