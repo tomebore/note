@@ -29,8 +29,9 @@ def add_note():
     return render_template("success.html")
 
 
-
-
+@app.route("/table-note")
+def table_note():
+    return render_template("table.html")
 
 
     
