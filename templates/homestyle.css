@@ -1,0 +1,44 @@
+
+/* 3. Свойства и значения по селектору класса content:
+сплошная граница тёмно синего цвета толщиной 3 пикселя
+радиус границы 10 пикселей
+/* прозрачность 0.9 */
+.menu {
+    height: 30px;
+    width: 70%;
+    color: #eee;
+    background-color: #3c3c3c;
+    font-size: 24px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: inset 10px 5px 10px 3px #3c3c3c;
+}
+
+.content {
+    height: 80%;
+    width: 70%;
+    background-image: url("project1.jpg");
+    background-color: #cccccc;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    box-shadow: inset 5px 5px 10px 3px blue;
+    border-style: solid;
+    border-color: darkblue;
+    border-width: 3px;
+    border: 10px solid;
+
+
+}
